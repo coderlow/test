@@ -1,0 +1,10 @@
+[build]
+  # Укажите папку, где находятся ваши HTML-файлы
+  publish = "html"
+  # Команда для сборки, если используется. В данном случае это просто заглушка.
+  command = "echo 'No build command required'"
+
+[build.environment]
+  # Указываем версию Node.js (опционально)
+  NODE_VERSION = "14"
+
